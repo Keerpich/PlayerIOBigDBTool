@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30128.74
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlayerIOExportTool", "PlayerIOExportTool\PlayerIOExportTool.csproj", "{4AEA0B24-CA21-4017-B32D-32CD0BF407EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DreamTeamTson", "DreamTeamTson\DreamTeamTson.csproj", "{2F167370-D1EA-44ED-9378-16086DBA5808}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4AEA0B24-CA21-4017-B32D-32CD0BF407EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4AEA0B24-CA21-4017-B32D-32CD0BF407EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4AEA0B24-CA21-4017-B32D-32CD0BF407EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4AEA0B24-CA21-4017-B32D-32CD0BF407EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F167370-D1EA-44ED-9378-16086DBA5808}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F167370-D1EA-44ED-9378-16086DBA5808}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F167370-D1EA-44ED-9378-16086DBA5808}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F167370-D1EA-44ED-9378-16086DBA5808}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C822E796-0080-4CF1-99FE-B3DEC2A65C98}
+	EndGlobalSection
+EndGlobal

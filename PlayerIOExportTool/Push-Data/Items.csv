@@ -1,0 +1,3 @@
+id,name,desc,price,available,tiers.0.rating,tiers.0.prefix,tiers.0.suffix,tiers.0.effectIds.0,tiers.0.effectIds.1,tiers.1.rating,tiers.1.prefix,tiers.1.suffix,tiers.1.effectIds.0
+0,"Spear","Pointy Stick",5,TRUE,1,"Normal",,0,1,5,"Freezing","Of Doom",2
+1,"Bow","Normal Bow",15,TRUE,2,"Broken",,0,,10,"Wind","Of Lightning",3
