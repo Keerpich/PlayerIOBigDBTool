@@ -6,8 +6,8 @@ namespace PlayerIOExportTool
 {
     public class ClassRegistry
     {
-        private static readonly string[] PlayerIoBasicTypes = {"int", "float", "string", "bool", "uint", "datetime"}; 
-        private static readonly System.Type[] DotNetBasicTypes = new [] {typeof(int?), typeof(float?), typeof(System.String), typeof(bool?), typeof(uint?), typeof(DateTime)};
+        private static readonly string[] PlayerIoBasicTypes = {"int", "float", "string", "bool", "uint", "datetime", "double"}; 
+        private static readonly System.Type[] DotNetBasicTypes = new [] {typeof(int?), typeof(float?), typeof(System.String), typeof(bool?), typeof(uint?), typeof(DateTime), typeof(double?)};
 
         private List<(string, Type)> TypesMapping;
 

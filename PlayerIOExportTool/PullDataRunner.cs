@@ -41,22 +41,21 @@ namespace PlayerIOExportTool
         {
             allDatabaseObjects ??= new List<DatabaseObject>();
             
-            int limit = start == null ? 0 : 1;
-
             Client.BigDB.LoadRange(TableName, TableLayoutData.Index, null, start, null, 1000,
                 databaseObjects =>
                 {
-                    if (databaseObjects.Length > limit)
+                    if (start != null)
                     {
-                        if (start != null)
-                        {
-                            databaseObjects = databaseObjects.Skip(1).ToArray();
-                        }
-                        
+                        allDatabaseObjects.AddRange(databaseObjects.Skip(1));
+                    }
+                    else
+                    {
                         allDatabaseObjects.AddRange(databaseObjects);
-
+                    }
+                    
+                    if (databaseObjects.Length == 1000)
+                    {
                         object last = databaseObjects.Last().Properties[TableLayoutData.IndexField];
-                        
                         RunRecursively(tcs, allDatabaseObjects, last);
                     }
                     else
