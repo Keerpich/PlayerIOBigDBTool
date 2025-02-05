@@ -1,6 +1,8 @@
 # PlayerIOTool
 A tool for importing/exporting/purging data from PlayerIO BigDB
 
+![Build result](https://github.com/Keerpich/PlayerIOBigDBTool/tree/main/.github/workflows/dotnet.yml/badge.svg)
+
 This was based on https://github.com/atillabyte/PlayerIOExportTool
 
 ## Publish
